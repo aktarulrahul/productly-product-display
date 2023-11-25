@@ -24,8 +24,9 @@ const ProductPage = () => {
       {products?.map((product: any, index: number) => (
         <ProductCard
           key={`product-${index}-${product.id}`}
-          name={product.name}
+          name={product.title}
           description={product.description}
+          image={product.images[0]}
         />
       ))}
     </div>
