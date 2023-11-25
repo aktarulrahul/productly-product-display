@@ -1,0 +1,38 @@
+.card {
+  min-width: 300px;
+  max-width: 300px;
+  height: 350px;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.cardContent {
+  padding: 1rem;
+  text-align: center;
+}
+
+.cardContent h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardContent button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #f0c040;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  margin: 8px 0;
+}
+
+.cardContent button:hover {
+  background-color: #f0ba25;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

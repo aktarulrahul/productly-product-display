@@ -1,0 +1,10 @@
+.product_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
